@@ -45,9 +45,15 @@ const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 var answers = []
 
-for (let i = 0; i < bigOrSmallArray.length; i++) {
-  while(i > 100) {
-    answers.push(i)
+for(let i = 0; i < 7; i++) {
+  if (i >= 100) {
+  answers.push('big')
+  }
+}
+
+for(let i = 0; i < bigOrSmallArray.length; i++){
+  if (i <= 99) {
+    answers.push('small')
   }
 }
 
