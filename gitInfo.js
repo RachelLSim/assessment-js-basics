@@ -86,7 +86,10 @@ console.log(gitAddCode)
 
 //CODE HERE
 
-var gitCommitCode = ('')
+var gitCommitDefintion = (`git commit creates a snapshot or 'version' of code changes and stores that snapshot in the repository for reference later. -m adds a customizable message regarding the changes made.`)
+console.log(gitCommitDefintion)
+
+var gitCommitCode = ('git commit -m"intial comment"')
 console.log(gitCommitCode)
 
 
@@ -99,5 +102,5 @@ console.log(gitCommitCode)
 //CODE HERE
 
 
-var gitPushDefinition = ('')
+var gitPushDefinition = ('git push pushes my local commits to a repository on GitHub to be stored.')
 console.log(gitPushDefinition)
