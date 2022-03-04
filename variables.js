@@ -10,14 +10,14 @@ var myName = ("Rachel")
 
 //CODE HERE
 
-var faveNum = ("12")
+var faveNum = (12)
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
 
-var lovesCode = false
+var lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -27,6 +27,11 @@ var lovesCode = false
 */
 
 //CODE HERE
+if(faveNum === 13) {
+  console.log('lucky 13!')
+} else{
+  console.log('not lucky 13')
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -34,3 +39,5 @@ var lovesCode = false
 */
 
 //CODE HERE
+for(let i = 0; i <= 4; i++)
+console.log(faveNum)
